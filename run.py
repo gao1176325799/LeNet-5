@@ -6,7 +6,7 @@ from torchvision.datasets.mnist import MNIST
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
 import visdom
-import onnx
+from torch import onnx
 
 viz = visdom.Visdom()
 
